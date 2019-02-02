@@ -1,0 +1,4 @@
+﻿Challenge:
+Create a console application named Calculator
+Create a new class and name it CalculatorRepository  
+The calculator that we are building will only need two numbers at this time. Use all the operators and unit test the methods. The repository

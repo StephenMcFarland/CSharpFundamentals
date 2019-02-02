@@ -1,0 +1,67 @@
+﻿            //Challenge create a console application called Insurance. Create a class and name it Car. 
+            //We need to be able to create a car for a insurance program a client is requesting. 
+
+            //Brand of car,
+            //Model of car,
+            //We need to know the Year of the car,
+            //Classification or Type(truck, suv, sedan, etc),
+            //We need to know the Color, 
+            //we need to know how many Wheels it has, 
+            //if it has been in a Accident,
+            //we also want to know how many Owners it has had.
+
+            //Once you have created a Car class unit test making an instance of the car.
+            //Make a New Unit Test Project and name it Insurance_Tests
+            //Make one test method that you call the car properties and set values for each one.
+            //Example
+            Car carOne = new Car();
+            carOne.Brand = "Autobots";
+            carOne.Model = "Camaro";
+            carOne.Year = 1984;
+            carOne.Type = "Car";
+            carOne.Color = "Yellow";
+            carOne.Wheels = 4;
+            carOne.HadAccident = true;
+            carOne.Owners = 0;
+
+            //Than make a new test method and unit test using a overloaded constructor
+            //When you create a constructor with parameters your test will fail. Why? Fix It.
+            //Example
+            Car carTwo = new Car("AutoBots","Camaro", 1984, "Car", "Yellow", 4, true, 0);
+
+            //If you finish this create a Car Repository that will hold methods related to the car.
+            //For right now create a method that will increase or decrease the amount of insurance based on year.
+            // If it was made in 
+            //1960 - 1970 cost will be $50 
+            //1971 - 1980 cost will be $75
+            //1981 - 1991 cost will be $150
+            //Everything else will be $2000
+            //Example
+            //BONUS but the bonus only comes with a pat on the back...create methods that adds a car to a list, gets a list and unit test those methods.
+            public decimal InsuranceCost(Car car)
+            {
+                decimal insurance = 0m;
+
+                if()
+                {
+                    insurance = 50m;
+                }
+                else if()
+                {
+                    insurance = 75m;
+
+                }
+                else if()
+                {
+                    insurance = 150m;
+                }
+                else ()
+                {
+                    insurance = 2000m;
+                }
+
+                return insurance;
+            }
+
+            //Refer back to your previous code. 
+            //Help each other ask questions.If you finish this
