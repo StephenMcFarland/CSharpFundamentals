@@ -6,7 +6,6 @@ namespace _02_DotNetFundamentals_In_A_Test_Project
     [TestClass]
     public class _01_Value_Types
     {
-        [TestMethod]
         public void ValueTypes()
         {
             char c = 'i';  // a string is just a linked list of chars, note the single quotes, a.k.a. Char
@@ -54,7 +53,6 @@ namespace _02_DotNetFundamentals_In_A_Test_Project
 
         }
 
-        [TestMethod]
         public void Declaration()
         {
             int number;

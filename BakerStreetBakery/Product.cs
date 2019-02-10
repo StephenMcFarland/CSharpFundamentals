@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 namespace BakerStreetBakery
 {
     public enum BakeType { Bread, Cake, Pastery, Pie }
+
     public class Product
     {
         public string ProductName { get; set; }

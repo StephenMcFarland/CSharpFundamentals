@@ -19,6 +19,7 @@ namespace _04_Calculator_RepositoryPattern_Tests
             //Assert
             Assert.AreEqual(expected, actualValue);
         }
+
         [TestMethod]
         public void Calculator_SubtractTwoNumbers_ShouldBeCorrectValue()
         {
@@ -31,6 +32,7 @@ namespace _04_Calculator_RepositoryPattern_Tests
             //Assert
             Assert.AreEqual(expected, actualValue);
         }
+
         [TestMethod]
         public void Calculator_DivideTwoNumbers_ShouldBeCorrectValue()
         {
@@ -43,6 +45,7 @@ namespace _04_Calculator_RepositoryPattern_Tests
             //Assert
             Assert.AreEqual(expected, actualValue);
         }
+
         [TestMethod]
         public void Calculator_MultiplyTwoNumbers_ShouldBeCorrectValue()
         {

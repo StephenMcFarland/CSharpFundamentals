@@ -6,7 +6,6 @@ namespace _02_DotNetFundamentals_In_A_Test_Project
     [TestClass]
     public class _04_If_ElseIf_Else
     {
-
         [TestMethod]
         public void If_Else()
         {

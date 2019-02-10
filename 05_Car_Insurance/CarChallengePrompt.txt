@@ -1,5 +1,5 @@
 ﻿            //Challenge create a console application called Insurance. Create a class and name it Car. 
-            //We need to be able to create a car for a insurance program a client is requesting. 
+            //We need to be able to  a car for a insurance program a client is requesting. 
 
             //Brand of car,
             //Model of car,

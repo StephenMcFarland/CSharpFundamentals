@@ -4,8 +4,9 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace _02_DotNetFundamentals_In_A_Test_Project
 {
     [TestClass]
-    public class UnitTest1
+    public class Loops
     {
+        [TestMethod]
         //Show loops in test runner and console program. 
         public void Loop()
         {
@@ -27,7 +28,7 @@ namespace _02_DotNetFundamentals_In_A_Test_Project
             //foreach //3  //2   //4  //1
             foreach (char letter in name)
             {
-                Console.WriteLine(letter);
+                Console.WriteLine($"\n{letter}");
             }
 
             int total = 1;
@@ -43,16 +44,17 @@ namespace _02_DotNetFundamentals_In_A_Test_Project
 
         public void Loop_Example()
         {
-            //string response = "n";
-            //while (response != "y")
-            //{
-            //    Console.WriteLine("What's your name?");
-            //    string name = Console.ReadLine();
-            //    Console.WriteLine($"Hello {name}.");
+            //Do this example with the calculator
+            string response = "n";
+            while (response != "y")
+            {
+                Console.WriteLine("What's your name?");
+                string name = Console.ReadLine();
+                Console.WriteLine($"Hello {name}.");
 
-            //    Console.WriteLine("Do you want to keep your name? (y/n)");
-            //    response = "n";
-            //}
+                Console.WriteLine("Do you want to keep your name? (y/n)");
+                response = "n";
+            }
         }
     }
 }

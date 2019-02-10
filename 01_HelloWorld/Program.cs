@@ -10,23 +10,13 @@ namespace _01_HelloWorld
     {
         //Challenge ask the user using a string variable age, name, and favorite food. Write out the input to the console. refer back to code today. Ask questions. 
         //Ask the user first name, last name, age
-        //Console.WriteLine("Hello, what is your first name?");
-        //    string firstName = Console.ReadLine();
 
-        //Console.WriteLine("What is your last name?");
-        //    string lastName = Console.ReadLine();
 
-        //Console.WriteLine("What is your age?");
-        //    int age = int.Parse(Console.ReadLine());
-
-        //Console.WriteLine($"Hello,{firstName} {lastName}, you are a {age}.");
-
-        //    Console.WriteLine("Hello " + firstName + " " + lastName + " " + age);
-        //    Console.ReadLine();
-
+        //BEFORE MOVING ON After this method is built out. White Board and discuss scope, what denotes a method a class.Stress to watch that every curly brace has a partner, each line ends in a semicolon, and that spelling is correct.  
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+            Console.ReadLine();
             string hello = "Hello";
 
             Console.WriteLine(hello + " World!");
@@ -50,6 +40,20 @@ namespace _01_HelloWorld
             Console.WriteLine("How old are you?");
             string age = Console.ReadLine();
             Console.WriteLine($"{hello}, {firstName} {lastName}. You are {age}");
+
+            //Console.WriteLine("Hello, what is your first name?");
+            //    string firstName = Console.ReadLine();
+
+            //Console.WriteLine("What is your last name?");
+            //    string lastName = Console.ReadLine();
+
+            //Console.WriteLine("What is your age?");
+            //    int age = int.Parse(Console.ReadLine());
+
+            //Console.WriteLine($"Hello,{firstName} {lastName}, you are a {age}.");
+
+            //Console.WriteLine("Hello " + firstName + " " + lastName + " " + age);
+            //Console.ReadLine();
         }
     }
 }

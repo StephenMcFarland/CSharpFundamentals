@@ -1,0 +1,7 @@
+﻿Challenge: write "Hello World" to the Console
+
+Challenge: write Hello to the console by using a string variable. Output should say "Hello World""
+
+Challenge: create and assign two string variables one for first name one for last name and using interpolation output that to the console as "Hello Lawrence Wagner".
+
+Challenge: Get the user's first name, last name, and age and output to the console Good Morning, Lawrence Wagner, your age is unknown.
